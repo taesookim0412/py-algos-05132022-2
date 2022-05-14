@@ -1,0 +1,17 @@
+public class Solution {
+        public int[] TwoSum(int[] nums, int target)
+        {
+            Dictionary<int, int> prevs = new Dictionary<int, int>();
+            int idx = 0;
+            foreach (int num in nums){
+                int difference = target - num;
+                if (prevs.ContainsKey(difference)){
+                    return new int[]{ prevs[difference],  idx};
+                }
+
+                prevs[num] = idx;
+                idx++;
+            }
+        return new int[] {};
+        }
+}
