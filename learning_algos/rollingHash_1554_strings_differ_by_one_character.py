@@ -1,4 +1,6 @@
-# Rabin-Karp Rolling Hash 73/81 based on https://leetcode.com/problems/strings-differ-by-one-character/discuss/2065237/JAVA-HASHCODE ,
+# 955 ms 58.34% char index power and large modulus
+# inspired by
+#  based on https://leetcode.com/problems/strings-differ-by-one-character/discuss/2065237/JAVA-HASHCODE ,
 # https://leetcode.com/problems/strings-differ-by-one-character/discuss/803030/JACA-Using-Hash-Rabin-Karp,
 # https://leetcode.com/problems/strings-differ-by-one-character/discuss/2081505/Python3-O(MN)-solution-with-detailed-explanation
 
